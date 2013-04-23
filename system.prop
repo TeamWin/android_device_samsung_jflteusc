@@ -1,4 +1,4 @@
-# system.prop for SCH-I535
+# system.prop for SCH-R530U
 #
 
 # cannot take spaces
@@ -11,3 +11,11 @@ ro.cdma.home.operator.numeric=311220
 ro.cdma.home.operator.alpha=U.S.Cellular
 ro.telephony.default_network=8
 telephony.lteOnCdmaDevice=1
+
+# More ril props
+persist.radio.snapshot_enabled=1
+persist.radio.snapshot_timer=22
+ro.config.combined_signal=true
+ro.gsm.data_retry_config=max_retries=infinite,0,0,60000,120000,480000,900000
+DEVICE_PROVISIONED=1
+persist.eons.enabled=false
